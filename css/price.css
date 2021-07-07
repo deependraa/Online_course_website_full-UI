@@ -1,0 +1,79 @@
+.col-sm{
+    margin: .7rem;
+    margin-top: 10%;
+    height: 80vh;
+    padding: 0;
+    box-shadow: 0rem 0rem 1rem 0rem #0000003f ;
+    border-radius: 10%;
+}
+.plan_details{
+    text-align: center;
+    height: 25%;
+    color: white;
+}
+.plan_name{
+    padding-top: 10%;
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+.plan_name h2{
+    margin-bottom: 0;
+}
+.plan_name1{
+   background-image: url(images/vector1\ \(3\).jpg);
+   background-size: cover;
+}
+.plan_name2{
+    background-image: url(images/vector1\ \(4\).jpg);
+    background-size: cover;
+}
+.plan_name3{
+    background-image: url(images/vector1\ \(5\).jpg);
+    background-size: cover;
+}
+.plan_price{
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+.course_benifits  {
+    margin: .4rem;
+    
+    border-bottom: 1px solid black;
+    height: 28%;
+}
+.course_certificate{
+    margin:.4rem;
+    padding-top: 1rem;
+    border-bottom: 1px solid black;
+    height: 15%;
+}
+.future_benifits{
+    margin:.4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+.Enbtn{
+    margin-top: 8%;
+    text-align: center;
+    
+}
+.Enroll_btn{
+    outline: none;
+    color: #000000;
+    padding: 0.7rem 2rem 0.7rem 2rem;
+    border-radius: 2em;
+    border: none;
+    background-color: rgb(255, 217, 0);
+    margin: 0.2rem 0.8rem 0.2rem 0.2rem ;
+    transition: background-color 0.5s;
+}
+.Enroll_btn:hover{
+    outline: none;
+    border: none;
+    background-color: rgb(206, 50, 50);
+    color: white;
+    transition: background-color 0.5s;
+    text-decoration: none;
+  }

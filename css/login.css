@@ -1,0 +1,104 @@
+body{
+    font-size: 10px;
+}
+.contents{
+    margin: 10% 0 0 0 ;
+    padding: 2%;
+    border-radius: 2rem;
+    background: #ffde00;
+    background: linear-gradient(90deg, rgb(255, 255, 255) 50%, rgba(255, 217, 0, 0.815) 0%);
+    box-shadow: 0rem 0rem 1rem 0rem #0000003f ;
+}
+.infodiv{
+    position: relative;
+}
+.login{
+    text-align: center;
+    margin-top: 5%;
+    transform: translate(-30%,0);
+    margin-bottom: 5%;
+}
+.input-group-addon{
+    width: 12rem;
+    font-size: 1rem;
+    margin: .5rem;
+    border-right: .15rem solid rgb(0, 0, 0);
+}
+.input_class{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    position: relative;
+}
+
+.form-input{
+    width: 100%;
+    outline: none;
+    background: transparent;
+    font-size: 1rem;
+    
+    border: 0;
+    padding: .7rem 0;
+    border-bottom: 0.1rem solid rgba(204, 204, 204, 0);}
+
+.form-input ~ .focus-border{position: absolute; bottom: 0; left: 0; width: 60%; height: 2px; z-index: 99;}
+.form-input ~ .focus-border:before, 
+.form-input ~ .focus-border:after{content: ""; position: absolute; bottom: 0; left: 0; width: 0; height: 100%; background-color: #000000; transition: 0.4s;}
+.form-input ~ .focus-border:after{left: auto; right: 0;}
+.form-input:focus ~ .focus-border:before, 
+.form-input:focus ~ .focus-border:after{width: 50%; transition: 0.4s;}
+
+
+.buttonsign{
+    text-align: center;
+    transform: translate(-30%,0);
+}
+.buttonsub{
+    margin-top: 2rem;
+    font-size: 1rem;
+    outline: none;
+    color: #ffffff;
+    padding: .5rem 1.5rem .5rem 1.5rem;
+    border-radius: 2em;
+    border: none;
+    background-color: rgb(102, 95, 95);
+}
+.buttonsub:hover{
+    outline: none;
+    border: none;
+    background-color: rgb(206, 151, 50);
+    color: white;
+    transition: background-color 0.5s;
+}
+.buttonsub:focus{
+    outline:none;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: rgb(0, 0, 0) !important;
+}
+.sign_text{
+    text-align: center;
+    top: 35%;
+    left: 58%;
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+}
+/* @keyframes progress_border{
+    0%{
+        width: 0%;
+        border-bottom-color:black; 
+    }
+    50%{
+        width: 50% ;
+        border-bottom-color:black;
+    }
+    100%{
+        width:100%;
+        border-bottom-color:black;
+        
+    }
+} */
